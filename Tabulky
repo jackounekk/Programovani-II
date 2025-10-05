@@ -1,0 +1,101 @@
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #fff7f0, #ffd9b3); /* jemný oranžovo-bílý přechod */
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #cc5200; /* tmavší oranžová pro nadpisy */
+    }
+
+    .card {
+      background: #ffffff; /* bílý podklad pro obsah */
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ff9933;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background: #ffe0cc;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+    }
+
+    button {
+      background: #ff9933;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #cc5200;
+    }
+  </style>
+</head>
+<table border="3">
+  <h1>Tabulka studentů</h1>
+  <thead>
+    <tr>
+      <th>Jméno</th>
+      <th>Předmět</th>
+      <th>Známka</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kudys</td>
+      <td>Základy elektrotechniky</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Seba</td>
+      <td>Programovaní II</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Martin</td>
+      <td>Tělocvik</td>
+      <td>1++</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Průměrná známka:2.66</td>
+    </tr>
+  </tfoot>
+</table>
+<h3>Neuspořádaný seznam(Podle známek)</h3>
+<ul>
+  <li>Martin</li>
+  <li>Kudys</li>
+  <li>Seba</li>
+</ul>
+<h3>Uspořádaný seznam(Podle známek)</h3>
+<ol>
+  <li>Martin</li>
+  <li>Seba</li>
+  <li>Kudys</li>
+</ol>
+
+
+
