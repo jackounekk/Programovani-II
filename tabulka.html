@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td, tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: left;
+        }
+        table {
+            border-collapse: collapse;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 100%;
+            padding: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <table style="border-style: double;">
+        <tr>
+            <td style="text-align:center" colspan="4" text-align: center>Registration Form</td>
+        </tr>
+        <tr>
+            <td>Students Data</td>
+            <td><input type="text" placeholder="First Name"></td>
+            <td><input type="text" placeholder="Middle Name"></td>
+            <td><input type="text" placeholder="Last Name"></td>
+        </tr>
+    <tr>
+        <td>Fathers Name</td>
+        <td><input type="text" placeholder="Fathers Name"></td>
+        <td>Mothers Name</td>
+        <td><input type="text" placeholder="Mothers Name"></td>
+    </tr>
+    <tr>
+        <td>Date of Birth</td>
+        <td><input type="date"></td>
+        <td>Gender</td>
+        <td>
+            <input type="checkbox">Male
+            <input type="checkbox">Woman
+        </td>
+    </tr>
+    <tr>
+        <td>Category</td>
+        <td>
+            <input type="checkbox">General
+            <input type="checkbox">OBC
+            <input type="checkbox">SC/ST
+        </td>
+        <td>EWS</td>
+        <td><input type="checkbox">Yes
+            <input type="checkbox">No
+        </td>
+    </tr>
+    <tr>
+        <td>Email ID</td>
+        <td><input type="email" placeholder="Email ID"></td>
+        <td>Mobile No</td>
+        <td><input type="tel" placeholder="Mobile No"></td>
+    </tr>
+    <tr>
+        <td>State</td>
+        <td><select><option>Select State...</option><option>Bohunice-Spodni 67</option></select></td>
+        <td>City</td>
+        <td><select><option>Select City...</option><option>Brno</option></select>
+    </td>
+    <tr>
+        <td>Upload Photo</td>
+        <td><input type="file"></td>
+        <td>Upload Signature</td>
+        <td><input type="file"></td>
+    </tr>
+    <tr>
+        <td colspan="4" style="text-align: center;">
+            <input type="submit" value="Submit">
+        </td>
+    </tr>
+
+    </table>
+    
+</body>
+</html>
